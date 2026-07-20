@@ -13,7 +13,7 @@
 # variants r_delta_gemma2b_code_sens_{a,b,c}.json. All other probe runs used
 # these versions.
 
-torch==2.8.0
+torch==2.13.0
 numpy==2.1.2
 transformers==5.13.0
 accelerate==1.14.0
