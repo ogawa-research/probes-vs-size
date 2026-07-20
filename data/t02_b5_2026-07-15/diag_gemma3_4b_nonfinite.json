@@ -1,0 +1,313 @@
+{
+  "hf_name": "google/gemma-3-4b-pt",
+  "seq_len": 2048,
+  "sliding_window": 1024,
+  "per_layer": [
+    {
+      "layer_idx": 0,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 1,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 2,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 3,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 4,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 5,
+      "layer_type": "full_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 6,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 7,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 8,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 9,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 10,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 11,
+      "layer_type": "full_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 12,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 13,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 14,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 15,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 16,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 17,
+      "layer_type": "full_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 18,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 19,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 20,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 21,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 22,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 23,
+      "layer_type": "full_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 24,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 25,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 26,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 27,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 28,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 29,
+      "layer_type": "full_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 30,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 31,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 32,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    },
+    {
+      "layer_idx": 33,
+      "layer_type": "sliding_attention",
+      "first_nonfinite_query_pos": null,
+      "n_nonfinite_rows": 0,
+      "n_total_rows": 16384,
+      "example_value_repr": "None",
+      "example_kind": null
+    }
+  ]
+}

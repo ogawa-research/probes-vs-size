@@ -1,0 +1,130 @@
+{
+ "note": "post-hoc supplementary analyses per the internal crosscheck review (2026-07-20) sec.3.2; B4/B5 verdicts immutable",
+ "correlations_N19": {
+  "params_vs_A_mass": 0.8343638073440878,
+  "y_vs_A_mass": 0.7068570050246791,
+  "params_vs_W_erank_all": 0.5078065773088438,
+  "y_vs_W_erank_all": 0.38064783246000117,
+  "params_vs_R": 0.1458462873488312,
+  "y_vs_R": -0.04825625373464711,
+  "params_vs_A_gini": 0.3348467281229649,
+  "y_vs_A_gini": 0.23962132345483633,
+  "params_vs_y": 0.863052205657909
+ },
+ "joint_N19": {
+  "base_params": 0.8027495736949227,
+  "joint_params_R": 0.7603575051499254,
+  "joint_params_Amass": 0.8502183947029669,
+  "joint_params_Agini": 0.8811546891859501,
+  "joint_params_W": 1.0399538717406418,
+  "joint_params_multRAW": 0.9019914202490155,
+  "best_joint": "joint_params_R",
+  "best_joint_minus_base": -0.04239206854499733,
+  "perm_p_best_joint_vs_base": 0.14285714285714285,
+  "multiplicity_note": "5 joint specs tried post hoc; only size+R is in the improving direction; p is selection-uncorrected",
+  "obs_min_joint_minus_base": -0.04239206854499733,
+  "selection_corrected_perm_p": 0.4985014985014985,
+  "selection_corrected_note": "statistic = min over the 5 specs of (joint - size) LOFO MAE, best spec reselected within each of 1000 permutations, seed 20260716; the per-spec p above is selection-uncorrected (fixed-spec diagnostic)"
+ },
+ "joint_N16_censor_excluded": {
+  "joint_params_R": 0.6674669550652592,
+  "base_params": 0.689510383279847,
+  "diff": -0.022043428214587824,
+  "perm_p": 0.1018981018981019
+ },
+ "incremental_bootstrap": {
+  "quantity": "MAE(size+R) - MAE(size), per-model paired LOFO errors",
+  "B": 10000,
+  "seeds": {
+   "model": 20260722,
+   "family": 20260723
+  },
+  "observed": -0.04239206854499733,
+  "model_level": {
+   "mean": -0.042353765648320656,
+   "p2.5": -0.16208321132185263,
+   "p50": -0.04276793806642437,
+   "p97.5": 0.08341651440463536,
+   "frac_le_0": 0.7531
+  },
+  "family_cluster": {
+   "mean": -0.038403056638063406,
+   "p2.5": -0.14675576041079819,
+   "p50": -0.04239206854499733,
+   "p97.5": 0.09191605165698136,
+   "frac_le_0": 0.7429
+  }
+ },
+ "sens_gemma_thr85.6_N19": {
+  "single_R": 2.0405056560022636,
+  "single_A_mass": 1.6250151973339937,
+  "single_A_gini": 1.8287916559576003,
+  "single_W_erank": 1.9702931405944983,
+  "add_R_Amass_W": 2.1058498133503356,
+  "add_R_Agini_W": 2.253303064532122,
+  "mult_R_Amass_W": 1.3346030102822417,
+  "mult_R_Agini_W": 1.5909690101490117,
+  "base_claimed": 1.64364762794412,
+  "base_params": 1.300891183140023,
+  "base_dmodel": 1.4948074491096544
+ },
+ "sens_censored_imputation": {
+  "1024": {
+   "top3": [
+    [
+     "base_params",
+     0.9638496279562355
+    ],
+    [
+     "mult_R_Amass_W",
+     1.04463142283311
+    ],
+    [
+     "base_dmodel",
+     1.3612557576906426
+    ]
+   ],
+   "base_params": 0.9638496279562355,
+   "mult_R_Amass_W": 1.04463142283311,
+   "size_still_best_overall": true
+  },
+  "2048": {
+   "top3": [
+    [
+     "base_params",
+     0.8027495736949227
+    ],
+    [
+     "mult_R_Amass_W",
+     0.8911516174513494
+    ],
+    [
+     "single_A_mass",
+     1.1335679254022106
+    ]
+   ],
+   "base_params": 0.8027495736949227,
+   "mult_R_Amass_W": 0.8911516174513494,
+   "size_still_best_overall": true
+  },
+  "4096": {
+   "top3": [
+    [
+     "base_params",
+     0.6930088748948552
+    ],
+    [
+     "mult_R_Amass_W",
+     0.7430802224879067
+    ],
+    [
+     "single_A_mass",
+     0.9118563782222139
+    ]
+   ],
+   "base_params": 0.6930088748948552,
+   "mult_R_Amass_W": 0.7430802224879067,
+   "size_still_best_overall": true
+  }
+ }
+}

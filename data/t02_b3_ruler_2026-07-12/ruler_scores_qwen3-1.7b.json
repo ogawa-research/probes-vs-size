@@ -1,0 +1,82 @@
+{
+  "model": "qwen3-1.7b",
+  "protocol": "answer_prefix_restored",
+  "lengths": {
+    "4096": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 99.8,
+        "niah_multikey_1": 99.6,
+        "niah_multikey_2": 95.0,
+        "niah_multikey_3": 97.0,
+        "niah_multivalue": 94.45,
+        "niah_multiquery": 97.75,
+        "vt": 98.04,
+        "cwe": 96.2,
+        "fwe": 68.33,
+        "qa_1": 69.6,
+        "qa_2": 48.0
+      },
+      "avg_13task": 89.5208,
+      "n_tasks": 13
+    },
+    "8192": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 99.2,
+        "niah_multikey_1": 99.4,
+        "niah_multikey_2": 86.6,
+        "niah_multikey_3": 93.4,
+        "niah_multivalue": 95.6,
+        "niah_multiquery": 97.2,
+        "vt": 94.24,
+        "cwe": 70.8,
+        "fwe": 74.4,
+        "qa_1": 59.6,
+        "qa_2": 46.6
+      },
+      "avg_13task": 85.9262,
+      "n_tasks": 13
+    },
+    "16384": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 99.8,
+        "niah_single_3": 100.0,
+        "niah_multikey_1": 98.6,
+        "niah_multikey_2": 82.4,
+        "niah_multikey_3": 86.2,
+        "niah_multivalue": 85.15,
+        "niah_multiquery": 87.2,
+        "vt": 89.52,
+        "cwe": 6.86,
+        "fwe": 94.67,
+        "qa_1": 59.0,
+        "qa_2": 41.8
+      },
+      "avg_13task": 79.3231,
+      "n_tasks": 13
+    },
+    "32768": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 100.0,
+        "niah_multikey_1": 89.2,
+        "niah_multikey_2": 72.2,
+        "niah_multikey_3": 47.4,
+        "niah_multivalue": 84.8,
+        "niah_multiquery": 83.35,
+        "vt": 86.76,
+        "cwe": 8.12,
+        "fwe": 65.8,
+        "qa_1": 51.4,
+        "qa_2": 42.8
+      },
+      "avg_13task": 71.6792,
+      "n_tasks": 13
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+ "note": "paired bootstrap CI for LOFO-CV MAE(mech) - MAE(base_params); supplement to the immutable B4/B5 verdicts, review A-6 item 5",
+ "specs": {
+  "mech": "mult_R_Amass_W",
+  "base": "base_params"
+ },
+ "observed": {
+  "mae_mech": 0.8911516174513494,
+  "mae_base": 0.8027495736949227,
+  "diff": 0.08840204375642668
+ },
+ "per_model_abs_err": {
+  "qwen3-0.6b": {
+   "mech": 2.5838832539136636,
+   "base": 0.8840393054867821,
+   "family": "qwen3"
+  },
+  "qwen3-1.7b": {
+   "mech": 0.8176375022001938,
+   "base": 0.08728213730492485,
+   "family": "qwen3"
+  },
+  "qwen3-4b": {
+   "mech": 0.5036733797961315,
+   "base": 1.2421123215111702,
+   "family": "qwen3"
+  },
+  "qwen3-8b": {
+   "mech": 0.5239877789203415,
+   "base": 0.5574678462586782,
+   "family": "qwen3"
+  },
+  "qwen3-14b": {
+   "mech": 1.3671499348411746,
+   "base": 1.0047167593040314,
+   "family": "qwen3"
+  },
+  "gemma-3-270m": {
+   "mech": 0.750975394311375,
+   "base": 0.628690135663394,
+   "family": "gemma"
+  },
+  "gemma-3-1b": {
+   "mech": 1.085309311895207,
+   "base": 1.7570051169838656,
+   "family": "gemma"
+  },
+  "gemma-3-4b": {
+   "mech": 0.3129496574837294,
+   "base": 0.04835890125477249,
+   "family": "gemma"
+  },
+  "gemma-3-12b": {
+   "mech": 1.3368863224284784,
+   "base": 1.1016322847027915,
+   "family": "gemma"
+  },
+  "gemma-3-27b": {
+   "mech": 0.8669047250701905,
+   "base": 0.4028150333601914,
+   "family": "gemma"
+  },
+  "llama-3.1-8b": {
+   "mech": 0.9600689468508818,
+   "base": 0.44181213473387615,
+   "family": "llama"
+  },
+  "mistral-7b": {
+   "mech": 0.23748994548633817,
+   "base": 0.49588883834421793,
+   "family": "mistral"
+  },
+  "mistral-nemo": {
+   "mech": 0.461355006178751,
+   "base": 1.0872594040516095,
+   "family": "mistral"
+  },
+  "yi-34b": {
+   "mech": 0.4466142834456388,
+   "base": 1.3355462008632344,
+   "family": "yi"
+  },
+  "phi3-mini": {
+   "mech": 0.3472880201247843,
+   "base": 1.2955602876642676,
+   "family": "phi"
+  },
+  "megabeam-mistral-7b": {
+   "mech": 0.6933859612251965,
+   "base": 0.5041111616557821,
+   "family": "mistral"
+  },
+  "prolong-llama3-8b": {
+   "mech": 1.0849143980889728,
+   "base": 0.44181213473387615,
+   "family": "llama"
+  },
+  "gradientai-llama3-8b": {
+   "mech": 0.1341167712752167,
+   "base": 0.5581878652661239,
+   "family": "llama"
+  },
+  "command-r-v01": {
+   "mech": 2.4172901380393697,
+   "base": 1.3779440310599433,
+   "family": "cohere"
+  }
+ },
+ "bootstrap": {
+  "B": 10000,
+  "seeds": {
+   "model": 20260720,
+   "family": 20260721
+  }
+ },
+ "model_level_paired": {
+  "mean": 0.0853042134988317,
+  "p2.5": -0.21863638071858263,
+  "p50": 0.0838706582862268,
+  "p97.5": 0.40086749669350025,
+  "frac_le_0": 0.2984
+ },
+ "family_cluster": {
+  "mean": 0.07337960755014723,
+  "p2.5": -0.26211988157391575,
+  "p50": 0.08734342667622963,
+  "p97.5": 0.3285555545415124,
+  "frac_le_0": 0.274
+ }
+}

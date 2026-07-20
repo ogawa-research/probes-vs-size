@@ -1,0 +1,51 @@
+# Number-to-source index (extracted from the manuscript source comments at release time; internal review-document names redacted)
+
+- t02_paper_design_2026-07-20.md §1, claim language calibrated per the internal crosscheck review (2026-07-20, available on request) §3.1; correlations and joint numbers from t02_b6_2026-07-20/b6_results.json
+- t02_relwork_raw_claims_pack_2026-07-20.md §1, adjudicated in t02_relwork_adjudication_2026-07-20.md §3.2
+- t02_relwork_adjudication_2026-07-20.md §2 (the auditor closes_core candidate, downgraded to overlaps/must-cite)
+- t02_partB_design_2026-07-11.md §1; t02_b3_ruler_instructions_2026-07-12.md §7
+- t02_b3_judgement_2026-07-15.md §3.2, §1
+- t02_b3_judgement_2026-07-15.md §4 item 4; t02_ruler_issue_draft_2026-07-17.md
+- t02_partB_design_2026-07-11.md §2 (R)
+- t02_partB_design_2026-07-11.md §2 (A)
+- t02_partB_design_2026-07-11.md §2 (W); t02_partA_final_judgement_2026-07-10.md addenda 4-5
+- t02_partA_final_judgement_2026-07-10.md §2; t02_b4_judgement_2026-07-15.md §6 item 4
+- t02_b4_judgement_2026-07-15.md §6 item 3; t02_b5_judgement_2026-07-17.md §6 (numbered "3 corrections")
+- t02_b5_judgement_2026-07-17.md §1; t02_b4_judgement_2026-07-15.md §2
+- t02_b5_judgement_2026-07-17.md §1
+- t02_b5_judgement_2026-07-17.md §1-§2; t02_b4_judgement_2026-07-15.md §1
+- t02_b6_2026-07-20/b6_results.json (correlations_N19, joint_N19, joint_N16_censor_excluded); analysis post hoc per the internal crosscheck review (2026-07-20, available on request) §3.2
+- t02_paper_design_2026-07-20.md §6; t02_b5_2026-07-15/b5_bootstrap_ci.json
+- incremental CI and N=19 threshold rerun from t02_b6_2026-07-20/b6_results.json
+- t02_b5_judgement_2026-07-17.md §3
+- t02_b5_judgement_2026-07-17.md §3
+- t02_p0c_judgement_2026-07-10.md; t02_partA_final_judgement_2026-07-10.md §0
+- t02_partA_final_judgement_2026-07-10.md addenda 3, 5
+- R values from t02_b6_2026-07-20/b6_results.json dataset (= b5_results.json); same-size taus from t02_b5_judgement_2026-07-17.md §3
+- t02_paper_design_2026-07-20.md §7
+- t02_paper_design_2026-07-20.md §4 R1
+- t02_paper_design_2026-07-20.md §4 R2
+- t02_paper_design_2026-07-20.md §4 R3
+- t02_paper_design_2026-07-20.md §4
+- t02_p0c_judgement_2026-07-10.md
+- t02_partA_final_judgement_2026-07-10.md §1; gemma-3-27b row from addendum 3
+- t02_partA_final_judgement_2026-07-10.md §2, addendum 2
+- t02_partA_final_judgement_2026-07-10.md §4, addendum 3
+- t02_partA_final_judgement_2026-07-10.md addenda 4-5
+- t02_relwork_raw_claims_pack_2026-07-20.md §1 (all three verbatim, direct PDF read per source pack)
+- t02_relwork_adjudication_2026-07-20.md §2; t02_relwork_headtohead_pack_2026-07-20.md §1,§3
+- t02_b3_judgement_2026-07-15.md §2
+- t02_b3_judgement_2026-07-15.md §3
+- t02_b3_judgement_2026-07-15.md §4
+- t02_b4_judgement_2026-07-15.md §2; t02_b5_judgement_2026-07-17.md §5
+- t02_b4_judgement_2026-07-15.md §6 items 1-2; defense wording calibrated per the internal crosscheck review (2026-07-20, available on request) item 4
+- t02_b5_judgement_2026-07-17.md §5 item 2; t02_recovery_pod_instructions_2026-07-12.md context
+- t02_b5_judgement_2026-07-17.md §開示 item 1 (single_R 0.6599 vs base_params 0.6895); earlier-checkpoint value from t02_b4_judgement_2026-07-15.md §4
+- t02_b4_judgement_2026-07-15.md §4; N=19 threshold rerun and imputation sweep from t02_b6_2026-07-20/b6_results.json
+- t02_b6_2026-07-20/b6_results.json (joint_N19, joint_N16_censor_excluded, incremental_bootstrap); analysis per the internal crosscheck review (2026-07-20, available on request) §3.2 item 1
+- t02_b4_judgement_2026-07-15.md §6 item 4
+- t02_b4_judgement_2026-07-15.md §6 item 3 (records the round-2 diagnosis and its own correction); t02_b5_judgement_2026-07-17.md §6 (records the round-3 correction, "3訂を経て確定")
+- t02_b5_2026-07-15/RUN_LOG.md §1.4 gate table (G1-G4, G2a) verbatim
+- t02_partB_design_2026-07-11.md §1 (RULER pack summary); t02_ruler_public_pack_2026-07-11.md
+- t02_ruler_issue_draft_2026-07-17.md
+- t02_b4_judgement_2026-07-15.md §7 item 2 (design pack §8 asterisk item, deprioritization documented as a decision, not an omission)

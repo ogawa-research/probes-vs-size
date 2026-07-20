@@ -1,0 +1,87 @@
+{
+  "model": "gemma-3-4b",
+  "protocol": "answer_prefix_restored",
+  "lengths": {
+    "4096": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 97.4,
+        "niah_multikey_1": 98.2,
+        "niah_multikey_2": 99.2,
+        "niah_multikey_3": 91.4,
+        "niah_multivalue": 97.7,
+        "niah_multiquery": 98.6,
+        "vt": 96.12,
+        "cwe": 73.94,
+        "fwe": 85.53,
+        "qa_1": 47.6,
+        "qa_2": 32.0
+      },
+      "avg_13task": 85.9762,
+      "n_tasks": 13
+    },
+    "8192": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 97.2,
+        "niah_multikey_1": 91.8,
+        "niah_multikey_2": 95.8,
+        "niah_multikey_3": 75.2,
+        "niah_multivalue": 86.75,
+        "niah_multiquery": 96.7,
+        "vt": 92.16,
+        "cwe": 62.3,
+        "fwe": 82.33,
+        "qa_1": 49.8,
+        "qa_2": 38.4
+      },
+      "avg_13task": 82.1877,
+      "n_tasks": 13
+    },
+    "16384": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 96.4,
+        "niah_multikey_1": 88.4,
+        "niah_multikey_2": 92.4,
+        "niah_multikey_3": 63.4,
+        "niah_multivalue": 90.25,
+        "niah_multiquery": 96.6,
+        "vt": 84.2,
+        "cwe": 43.82,
+        "fwe": 89.27,
+        "qa_1": 51.4,
+        "qa_2": 41.2
+      },
+      "avg_13task": 79.7954,
+      "n_tasks": 13
+    },
+    "32768": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 99.8,
+        "niah_single_3": 97.8,
+        "niah_multikey_1": 82.6,
+        "niah_multikey_2": 72.8,
+        "niah_multikey_3": 42.2,
+        "niah_multivalue": 83.85,
+        "niah_multiquery": 93.0,
+        "vt": 74.52,
+        "cwe": 12.2,
+        "fwe": 80.2,
+        "qa_1": 51.6,
+        "qa_2": 42.0
+      },
+      "avg_13task": 71.7362,
+      "n_tasks": 13
+    }
+  },
+  "64k_threshold_check": {
+    "threshold": 79.4,
+    "32768_avg": 71.7362,
+    "triggered": false
+  }
+}

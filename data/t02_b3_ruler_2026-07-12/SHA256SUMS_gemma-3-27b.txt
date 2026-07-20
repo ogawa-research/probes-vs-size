@@ -1,0 +1,3 @@
+17dea1990589e82509da755c4ebeca829cdbea254c5143050377c406405d9fa1  ruler_scores_gemma-3-27b.json
+c1fdb58a6d00ddea006cf27faf8e59f835c1483b06f2aa4a9f9a2ada5e130f25  gemma-3-27b_pred.tar.gz
+afb1586c01f61bde79cb69b7c971a3614c8ec47af387e595c833ca679e3b0d28  run_gemma-3-27b.log

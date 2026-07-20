@@ -1,0 +1,135 @@
+{
+  "model": "gemma-3-12b",
+  "protocol": "answer_prefix_restored",
+  "lengths": {
+    "4096": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 99.8,
+        "niah_multikey_1": 99.2,
+        "niah_multikey_2": 99.8,
+        "niah_multikey_3": 100.0,
+        "niah_multivalue": 99.75,
+        "niah_multiquery": 99.85,
+        "vt": 0.4,
+        "cwe": 99.9,
+        "fwe": 96.93,
+        "qa_1": 43.6,
+        "qa_2": 47.4
+      },
+      "avg_13task": 83.5869,
+      "n_tasks": 13
+    },
+    "8192": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 99.2,
+        "niah_multikey_1": 99.4,
+        "niah_multikey_2": 99.6,
+        "niah_multikey_3": 99.0,
+        "niah_multivalue": 99.45,
+        "niah_multiquery": 99.7,
+        "vt": 5.92,
+        "cwe": 99.2,
+        "fwe": 92.47,
+        "qa_1": 45.6,
+        "qa_2": 49.2
+      },
+      "avg_13task": 83.7492,
+      "n_tasks": 13
+    },
+    "16384": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 99.8,
+        "niah_multikey_1": 97.0,
+        "niah_multikey_2": 98.0,
+        "niah_multikey_3": 98.8,
+        "niah_multivalue": 98.65,
+        "niah_multiquery": 99.65,
+        "vt": 8.0,
+        "cwe": 96.02,
+        "fwe": 97.47,
+        "qa_1": 43.2,
+        "qa_2": 47.8
+      },
+      "avg_13task": 83.4146,
+      "n_tasks": 13
+    },
+    "32768": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 99.4,
+        "niah_multikey_1": 97.6,
+        "niah_multikey_2": 96.2,
+        "niah_multikey_3": 98.4,
+        "niah_multivalue": 98.7,
+        "niah_multiquery": 98.55,
+        "vt": 53.56,
+        "cwe": 90.88,
+        "fwe": 98.0,
+        "qa_1": 45.4,
+        "qa_2": 47.0
+      },
+      "avg_13task": 86.4377,
+      "n_tasks": 13
+    },
+    "65536": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 100.0,
+        "niah_multikey_1": 92.4,
+        "niah_multikey_2": 96.0,
+        "niah_multikey_3": 90.0,
+        "niah_multivalue": 96.25,
+        "niah_multiquery": 98.0,
+        "vt": 24.72,
+        "cwe": 71.02,
+        "fwe": 82.67,
+        "qa_1": 42.6,
+        "qa_2": 45.6
+      },
+      "avg_13task": 79.9431,
+      "n_tasks": 13
+    },
+    "131072": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 100.0,
+        "niah_multikey_1": 88.6,
+        "niah_multikey_2": 85.0,
+        "niah_multikey_3": 57.8,
+        "niah_multivalue": 90.15,
+        "niah_multiquery": 95.95,
+        "vt": 12.28,
+        "cwe": 46.12,
+        "fwe": 96.53,
+        "qa_1": 40.4,
+        "qa_2": 44.6
+      },
+      "avg_13task": 73.6485,
+      "n_tasks": 13
+    }
+  },
+  "64k_threshold_check": {
+    "threshold": 79.4,
+    "32768_avg": 86.4377,
+    "triggered": true
+  },
+  "128k_threshold_check": {
+    "threshold": 79.4,
+    "65536_avg": 79.9431,
+    "triggered": true
+  },
+  "256k_threshold_check": {
+    "threshold": 79.4,
+    "131072_avg": 73.6485,
+    "triggered": false
+  }
+}

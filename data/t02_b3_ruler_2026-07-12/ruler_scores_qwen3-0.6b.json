@@ -1,0 +1,82 @@
+{
+  "model": "qwen3-0.6b",
+  "protocol": "answer_prefix_restored",
+  "lengths": {
+    "4096": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 99.8,
+        "niah_single_3": 99.4,
+        "niah_multikey_1": 99.2,
+        "niah_multikey_2": 91.8,
+        "niah_multikey_3": 87.6,
+        "niah_multivalue": 93.45,
+        "niah_multiquery": 98.1,
+        "vt": 63.6,
+        "cwe": 62.7,
+        "fwe": 63.07,
+        "qa_1": 55.0,
+        "qa_2": 32.0
+      },
+      "avg_13task": 80.44,
+      "n_tasks": 13
+    },
+    "8192": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 99.8,
+        "niah_single_3": 99.6,
+        "niah_multikey_1": 92.8,
+        "niah_multikey_2": 67.0,
+        "niah_multikey_3": 51.0,
+        "niah_multivalue": 90.7,
+        "niah_multiquery": 96.6,
+        "vt": 71.56,
+        "cwe": 5.06,
+        "fwe": 75.13,
+        "qa_1": 42.2,
+        "qa_2": 30.6
+      },
+      "avg_13task": 70.9269,
+      "n_tasks": 13
+    },
+    "16384": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 99.4,
+        "niah_multikey_1": 86.4,
+        "niah_multikey_2": 54.8,
+        "niah_multikey_3": 22.2,
+        "niah_multivalue": 85.35,
+        "niah_multiquery": 94.6,
+        "vt": 70.44,
+        "cwe": 0.22,
+        "fwe": 77.2,
+        "qa_1": 36.4,
+        "qa_2": 28.0
+      },
+      "avg_13task": 65.77,
+      "n_tasks": 13
+    },
+    "32768": {
+      "per_task_score": {
+        "niah_single_1": 100.0,
+        "niah_single_2": 100.0,
+        "niah_single_3": 99.6,
+        "niah_multikey_1": 72.8,
+        "niah_multikey_2": 50.6,
+        "niah_multikey_3": 5.4,
+        "niah_multivalue": 65.75,
+        "niah_multiquery": 84.0,
+        "vt": 35.12,
+        "cwe": 0.6,
+        "fwe": 53.87,
+        "qa_1": 35.6,
+        "qa_2": 25.2
+      },
+      "avg_13task": 56.0415,
+      "n_tasks": 13
+    }
+  }
+}
