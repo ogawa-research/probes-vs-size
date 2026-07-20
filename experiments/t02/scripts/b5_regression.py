@@ -1,4 +1,4 @@
-"""T02 B5: pre-registered extension analysis (instructions sec.4 + Amendment 1).
+"""T02 B5: pre-specified extension analysis (instructions sec.4 + Amendment 1).
 
 Reuses b4_regression.py verbatim (MODEL_SPECS, LOFO-CV, permutation seeds) —
 the B4 verdict is immutable; B5 reports robustness of the same comparisons at
@@ -123,7 +123,7 @@ def main():
     for spec in NEW_MODELS:
         rows.append(new_model_row(*spec))
 
-    out = {'note': 'B5 pre-registered extension; B4 verdict immutable',
+    out = {'note': 'B5 pre-specified extension; B4 verdict immutable',
            'gemma_R_diff_table': diff_table,
            'dataset': rows}
     print(f"N = {len(rows)}, families = {sorted({r['family'] for r in rows})}")
@@ -187,7 +187,7 @@ def main():
             r['R'] = gemma_v2[r['name']][1]
     out['sens_gemma_R_global_only'] = b4.run_suite(rows_g, 'b5_gglob')
 
-    # ---- same-size control groups (descriptive, pre-registered sec.4-2)
+    # ---- same-size control groups (descriptive, pre-specified sec.4-2)
     groups = {
         'G1_mistral7B': ['mistral-7b', 'megabeam-mistral-7b'],
         'G2_llama8B': ['llama-3.1-8b', 'prolong-llama3-8b', 'gradientai-llama3-8b'],

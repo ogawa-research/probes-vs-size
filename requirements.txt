@@ -1,0 +1,23 @@
+# Recorded GPU measurement environment for the included probe scripts.
+# The four paper-number reproduction scripts listed in README.md use only the
+# Python standard library and do not require this environment.
+#
+# The runs used the CUDA 12.8 build of PyTorch (2.8.0+cu128). Install the
+# platform-appropriate PyTorch wheel for the target machine.
+#
+# Disclosed exception: four JSONs in data/t02_partB_b1b2_2026-07-11/ came
+# from a follow-up re-run on an H200 GPU under transformers 5.13.1 -- a
+# patch-version difference from the pin below, reviewed with no evidence of a
+# numerically relevant change: a_retrieval_yi-34b.json (re-run after an
+# out-of-memory failure) and the three delta position-aggregation sensitivity
+# variants r_delta_gemma2b_code_sens_{a,b,c}.json. All other probe runs used
+# these versions.
+
+torch==2.8.0
+numpy==2.1.2
+transformers==5.13.0
+accelerate==1.14.0
+datasets==5.0.0
+huggingface-hub==1.22.0
+safetensors==0.8.0
+jlens @ git+https://github.com/anthropics/jacobian-lens.git@581d398613e5602a5af361e1c34d3a92ea82ba8e

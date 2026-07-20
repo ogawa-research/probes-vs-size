@@ -1,5 +1,5 @@
 {
- "note": "B5 pre-registered extension; B4 verdict immutable",
+ "note": "B5 pre-specified extension; B4 verdict immutable",
  "gemma_R_diff_table": {
   "gemma-3-270m": {
    "b4_rescue_global_only_R": 0.6566418615254224,

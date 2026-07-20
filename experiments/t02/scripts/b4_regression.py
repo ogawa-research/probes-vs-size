@@ -4,7 +4,7 @@
 Head-to-head: do short-context mechanism factors (R, A, W) predict RULER
 effective context length better than single factors and no-mechanism baselines?
 
-Protocol per data/t02_partB_design_2026-07-11.md §4 (pre-registered):
+Protocol per data/t02_partB_design_2026-07-11.md §4 (pre-specified):
   - y = log2(effective length), effective from threshold method (B3 judgement +
     public-row recalc, contiguous-exceedance rule).
   - censored "<4K" imputed at 2048 (main) / excluded (sensitivity). No ">128K" points.
@@ -275,7 +275,7 @@ def main():
         'mechanism_beats_baseline': min(best_comp[0], best_single[0]) < best_base[0],
     }
 
-    # permutation tests on the pre-registered comparisons
+    # permutation tests on the pre-specified comparisons
     p_comp = permutation_p(rows, MODEL_SPECS[best_comp[1]], best_comp[0])
     p_single = permutation_p(rows, MODEL_SPECS[best_single[1]], best_single[0])
     p_diff = permutation_p_diff(rows, MODEL_SPECS[best_comp[1]],
